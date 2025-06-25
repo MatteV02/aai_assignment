@@ -1,0 +1,17 @@
+# Key Performance Indices
+- **WIP**: works in progress
+	- every time the number of work in progress in the line varies, update the time for the relative state
+	- $$ \hat W = \sum_{w = 1}^\infty \frac{T_w}{T_{run}} \cdot w $$
+		- $w$ is the number of works in progress
+		- $T_w$ is the amount of time the system has been with $w$ works in progress
+		- $T_{run}$ is the total run time
+- **tardiness**:
+	- how late are jobs completed w.r.t. the deadline?
+	- I consider the maximum tardiness.
+	- $$T_i = \max(0, C_i - d_i)$$
+- **earliness**:
+	- how early are jobs completed w.r.t. the deadline?
+	- I consider the maximum earliness
+	- $$E_i = \max(0, d_i - C_i)$$
+- **throughput**:
+	- $$ thr = \frac{number\ of\ completed\ jobs}{simulation\ run} $$
