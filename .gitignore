@@ -1,2 +1,3 @@
 .vscode
 project-obsidian/.obsidian
+rl_agent_tensorboard/*
